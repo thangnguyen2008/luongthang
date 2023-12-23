@@ -12,6 +12,6 @@ else:
             k = float(2000000)
         else:
             k = float(3000000)
-e = d/26*c + k
+e = b/26*c + k
 e = int(e)
 print("lương tháng của ",a," là ",e,"VND")
