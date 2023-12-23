@@ -1,4 +1,4 @@
-a = float(input("nhập tên nhân viên:"))
+a = input("nhập tên nhân viên:")
 b = float(input("nhập mức lương tháng"))
 c = int(input("nhập số ngày đi làm thực tế"))
 d = int(input("nhập số sản phẩm bán được"))
