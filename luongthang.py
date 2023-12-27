@@ -55,4 +55,4 @@ else:
     if t >= 10 and t <= 99:
         t = str(t)
         t = "0"+t
-print("lương tháng của",a,"là",t,"",r,"",w,"",q,"VND")
+print("lương tháng của",a,"là",t,r,w,q,"VND")
