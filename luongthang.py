@@ -3,14 +3,20 @@ b = float(input("nhập mức lương tháng: "))
 while b < 0:
     print("Lỗi")
     b = float(input("Nhập lại: "))
-c = int(input("nhập số ngày đi làm thực tế: ")
+    if b >= 0:
+        break
+c = int(input("nhập số ngày đi làm thực tế: "))
 while c < 0:
     print("Lỗi")
     c = float(input("Nhập lại: "))
+    if c >= 0:
+        break
 d = int(input("nhập số sản phẩm bán được: "))
 while d < 0:
     print("Lỗi")
     d = float(input("Nhập lại: "))
+    if d >= 0:
+        break
 if d < 10:
     e = 0
 else:
