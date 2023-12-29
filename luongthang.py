@@ -1,7 +1,16 @@
 a = input("nhập tên nhân viên: ")
 b = float(input("nhập mức lương tháng: "))
-c = int(input("nhập số ngày đi làm thực tế: "))
+while b < 0:
+    print("Lỗi")
+    b = float(input("Nhập lại: "))
+c = int(input("nhập số ngày đi làm thực tế: ")
+while c < 0:
+    print("Lỗi")
+    c = float(input("Nhập lại: "))
 d = int(input("nhập số sản phẩm bán được: "))
+while d < 0:
+    print("Lỗi")
+    d = float(input("Nhập lại: "))
 if d < 10:
     e = 0
 else:
