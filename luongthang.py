@@ -6,10 +6,10 @@ while b < 0:
     if b >= 0:
         break
 c = int(input("nhập số ngày đi làm thực tế: "))
-while c < 0:
+while c < 0 and c > 31:
     print("Lỗi")
     c = float(input("Nhập lại: "))
-    if c >= 0:
+    if c >= 0 and c <= 31:
         break
 d = int(input("nhập số sản phẩm bán được: "))
 while d < 0:
